@@ -102,7 +102,6 @@ const TodoTable = () => {
   return (
     <div className="main__todo">
       <div className='box__todo'>
-        <h1>TodoTable with Jotai</h1>
         <Input
           placeholder="Search tasks..."
           value={search}
